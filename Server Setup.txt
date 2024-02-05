@@ -44,4 +44,4 @@ You don't have permission to access this resource.
 Apache/2.4.52 (Ubuntu) Server at ec2-18-222-225-115.us-east-2.compute.amazonaws.com Port 80
 --------------------------------------------------------------------------------------------
 
-Note: I stopped here as I was unable to test any python code. I attempted to modify a few root config file permissions by adding "Require all granted" to fix the issue. I also tried every solution I could find on stack overflow, nothing worked.
+Note: I stopped here as I was unable to test any python code. I attempted to modify a few root config file permissions by adding "Require all granted" to fix the issue. I also tried every solution I could find on stack overflow, nothing worked. I went ahead and reverted the 000-default.conf so the ubuntu webpage loads.
